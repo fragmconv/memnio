@@ -1,4 +1,4 @@
-<script>
+<script setup>
 import post from "../components/post.vue";
 </script>
 
@@ -52,11 +52,13 @@ import post from "../components/post.vue";
       <p
         class="text-3xl text-center subpixel-antialiased font-normal font-mono text-gray-900 tracking-wide"
       >
-        I NOSTRI ARTICOLI
+        ARTICOLI IN EVIDENZA
       </p>
     </div>
   </div>
-  <div class="h-96 w-1/2 flex items-center align-items bg-red-300">
-      <Post />
+  <div class="w-full flex items-center justify-center">
+      <div class="w-2/3 h-full mb-40">
+        <post />
+      </div>
   </div>
 </template>
